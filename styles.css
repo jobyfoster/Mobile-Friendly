@@ -1,0 +1,110 @@
+:root {
+  --primary-background: #c2c0c0;
+  --content-background: #4a90e2;
+
+  --primary-text: #000000;
+  --secondary-text: #111111;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: var(--primary-background);
+
+  font-family: "Montserrat", sans-serif;
+}
+
+body > * {
+  margin: 0;
+}
+
+body > * {
+  margin: 0;
+}
+
+.dalle-img {
+  border: 1px solid #ffd;
+  background-color: #e6e6e6;
+  border-radius: 4px;
+
+  padding: 3px;
+  width: 27em;
+
+  margin: 3em 3em;
+
+  display: inline;
+  float: right;
+}
+
+#nav-bar {
+  font-size: 1.7em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+  background-color: var(--content-background);
+
+  border-bottom: 0.1em solid var(--primary-text);
+}
+
+#nav-bar a {
+  text-decoration: none;
+  color: var(--primary-text);
+}
+
+#nav-bar a:hover {
+  text-decoration: underline;
+}
+
+.content-box {
+  background-color: var(--content-background);
+  padding: 2em 3em;
+
+  border: 0.2em var(--primary-text) solid;
+  margin: 2em auto;
+  overflow: auto;
+
+  width: 80%;
+}
+
+.content {
+  width: 65%;
+}
+
+#main-heading {
+  font-family: "Montserrat", sans-serif, 600;
+  font-size: 2.6em;
+  color: var(--primary-text);
+
+  padding-bottom: 0.5em;
+
+  border-bottom: 0.08em solid var(--primary-text);
+}
+
+.sub-headings {
+  font-size: 2.7em;
+}
+
+.content-text {
+  width: 70%;
+  font-size: 1.8em;
+  color: var(--secondary-text);
+}
+
+#join-us {
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  margin-bottom: 8em;
+}
+
+#join-us p {
+  width: 90%;
+}
