@@ -12,21 +12,13 @@
   box-sizing: border-box;
 }
 
-body {
+#site-wrapper {
   margin: 0;
   padding: 0;
 
   background-color: var(--primary-background);
 
   font-family: "Montserrat", sans-serif;
-}
-
-body > * {
-  margin: 0;
-}
-
-body > * {
-  margin: 0;
 }
 
 .dalle-img {
@@ -54,12 +46,12 @@ body > * {
   border-bottom: 0.1em solid var(--primary-text);
 }
 
-#nav-bar a {
+.nav-link {
   text-decoration: none;
   color: var(--primary-text);
 }
 
-#nav-bar a:hover {
+.nav-link:hover {
   text-decoration: underline;
 }
 
@@ -105,11 +97,19 @@ body > * {
   margin: 2em auto 8em;
 }
 
-#join-us p {
+#join-us .content-text {
   width: 90%;
 }
 
 @media only screen and (max-width: 800px) {
+  #site-wrapper > * {
+    margin: 0;
+  }
+
+  #site-wrapper > * {
+    margin: 0;
+  }
+
   .dalle-img {
     width: 90%;
     margin: 2em auto;
